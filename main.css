@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    /* flex-shrink: 1; */
+    /* flex-basis: 500px; */
+    position: static;
+    background: url(../StaticRegister/assets/gameofthrones_background.jpg);
+    background-size: 100%;
+    background-color: green;
+    background-repeat: no-repeat;
+    outline: 3px black;
+    outline-style: groove;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nav {
+    position: static;
+    background-color: darkblue;
+    outline: 3px solid black;
+    outline-style: outset;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    position: static;
+    background-color: lightsteelblue;
+    padding: 10px;
+    margin: 10px;
+    outline: 3px solid white;
+    color: white;
+    text-align: center;
+}
+
+.nav-link {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    background-color: yellow;
+    outline: 3px solid black;
+    padding: 20px;
+}
+
+.itemsgrid{
+    position: static;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+
+.item {
+    background-color: orange;
+    outline: 3px solid black;
+    position: static;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 0 250px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: static;
+    background-color: darkblue;
+    outline: 3px solid black; /* use outline to stay with current size */
+    height: 60px;
+    color: white;
+    align-items: center;
+}
+
+.footerlinks a {
+    color: white;
+    outline: 3px solid white;
+    background: lightsteelblue;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    outline: 3px solid black;
+}
+
+h3 {
+    background-color: darkblue;
+    color: white;
+    outline: 3px solid black;
+}
